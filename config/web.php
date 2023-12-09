@@ -57,7 +57,7 @@ $config = [
         */
     ],
     'params' => $params,
-    'defaultRoute' => 'bookshelf/books/index',
+    // 'defaultRoute' => 'bookshelf/books/index',
 ];
 
 if (YII_ENV_DEV) {
