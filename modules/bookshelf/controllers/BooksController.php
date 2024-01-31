@@ -39,6 +39,7 @@ class BooksController extends Controller
     public function actionIndex()
 
     {  
+        
         $searchModel = new BooksSearch();
         $dataProvider = $searchModel->search($this->request->queryParams);
 

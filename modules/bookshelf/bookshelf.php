@@ -11,6 +11,7 @@ class bookshelf extends \yii\base\Module
      * {@inheritdoc}
      */
     public $controllerNamespace = 'app\modules\bookshelf\controllers';
+    public $layout = 'Blayout';
 
     /**
      * {@inheritdoc}
@@ -18,8 +19,7 @@ class bookshelf extends \yii\base\Module
     public function init()
     {
         parent::init();
-    $this->layout = 'Blayout';
-    
+
         // custom initialization code goes here
     }
 }
